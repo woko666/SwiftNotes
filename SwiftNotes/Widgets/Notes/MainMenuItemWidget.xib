@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MainMenuItemWidget" customModule="ProjectTemplate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OMG-XJ-ldB">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PL8-es-rhx">
+                            <rect key="frame" x="6" y="6" width="357" height="68"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="PL8-es-rhx" secondAttribute="trailing" constant="12" id="2IW-dX-qTf"/>
+                        <constraint firstAttribute="bottom" secondItem="PL8-es-rhx" secondAttribute="bottom" constant="6" id="2nr-xu-BsG"/>
+                        <constraint firstItem="PL8-es-rhx" firstAttribute="top" secondItem="OMG-XJ-ldB" secondAttribute="top" constant="6" id="Jtj-ZB-cON"/>
+                        <constraint firstItem="PL8-es-rhx" firstAttribute="leading" secondItem="OMG-XJ-ldB" secondAttribute="leading" constant="6" id="n26-bw-HZC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OMG-XJ-ldB" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="KJh-kN-ewp"/>
+                <constraint firstItem="OMG-XJ-ldB" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Sf8-wk-I32"/>
+                <constraint firstItem="OMG-XJ-ldB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="jPc-XW-6ww"/>
+                <constraint firstItem="OMG-XJ-ldB" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="uz3-oV-wfQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="bottomPaddingConstraint" destination="Sf8-wk-I32" id="RgN-0O-VrM"/>
+                <outlet property="label" destination="PL8-es-rhx" id="dC7-Nz-l4x"/>
+                <outlet property="leftPaddingConstraint" destination="jPc-XW-6ww" id="k5t-4F-7Hq"/>
+                <outlet property="rightPaddingConstraint" destination="KJh-kN-ewp" id="ODi-VI-dfn"/>
+                <outlet property="topPaddingConstraint" destination="uz3-oV-wfQ" id="c4h-2i-jbR"/>
+            </connections>
+            <point key="canvasLocation" x="130.40000000000001" y="116.94152923538232"/>
+        </view>
+    </objects>
+</document>

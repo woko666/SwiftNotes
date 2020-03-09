@@ -1,0 +1,24 @@
+{
+  "name": "CleanroomLogger",
+  "version": "7.0.0",
+  "summary": "CleanroomLogger is pod for an extensible Swift-based logging API called CleanroomLogger",
+  "description": "'CleanroomLogger provides an extensible Swift-based logging API that is simple, lightweight and performant.'",
+  "homepage": "https://github.com/woko666/CleanroomLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "woko": "woko@centrum.cz"
+  },
+  "source": {
+    "git": "https://github.com/woko666/CleanroomLogger.git",
+    "tag": "7.0.0"
+  },
+  "swift_versions": "4.1",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Sources/**/*",
+  "swift_version": "4.1"
+}

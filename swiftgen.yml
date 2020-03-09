@@ -1,0 +1,15 @@
+strings:
+  inputs: SwiftNotes/Base.lproj/Localizable.strings
+  outputs:
+    templateName: flat-swift4
+    output: SwiftNotes/Utility/Project/SwiftGen/L10n-Constants.swift
+fonts:
+  inputs: SwiftNotes/Assets/Fonts
+  outputs:
+    templateName: swift4
+    output: SwiftNotes/Assets/Fonts/Fonts.swift
+colors:
+  inputs: SwiftNotes/Assets/Colors/colors.txt
+  outputs:
+    templateName: swift4
+    output: SwiftNotes/Assets/Colors/colors.swift

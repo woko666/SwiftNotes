@@ -1,0 +1,5 @@
+DefaultText: 1b262c
+MainTint: 0f4c75
+LightTint: bbe1fa
+Placeholder: 888888
+BackgroundColor: cff7ff
