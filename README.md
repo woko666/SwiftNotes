@@ -6,9 +6,7 @@
 
 ## Architecture & Dependencies
 
-This app uses MVVM-C with services as a core architectural pattern. Dependencies include RxSwift, RxDataSources, Moya, Swinject, Quick/Nimble, Realm, SwiftLint, Swiftgen, SpecLeaks, PopupDialog...
-
-As for MVVM vs Clean Swift - I have no issues with adapting to it, as I believe that all architectures with a sufficient separation of concerns mostly differ in interfaces and maybe an additional layer of abstraction. A case in point - MVVM-C + RxSwift is architecturally very similar to VIPER.
+This app uses MVVM-C with services as a core architectural pattern. Dependencies include RxSwift, RxDataSources, Moya, Swinject, Quick/Nimble, Realm, SwiftLint, Swiftgen, SpecLeaks...
 
 ## Offline Capabilities
 

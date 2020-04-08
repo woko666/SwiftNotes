@@ -20,7 +20,6 @@ def shared_pods
 
     pod 'NVActivityIndicatorView'
     pod 'SVProgressHUD'
-    pod 'PopupDialog'    
     pod 'UIWindowTransitions'
     pod 'RxDataSources'
     pod 'SnapKit'
